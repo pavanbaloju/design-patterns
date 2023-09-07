@@ -16,7 +16,7 @@ public class Order {
         logger.info("{} order is placed", name);
     }
     public void prepare() {
-        logger.info("{} is being cooked", name);
+        logger.info("{} is prepared", name);
     }
 
     public void serve() {
