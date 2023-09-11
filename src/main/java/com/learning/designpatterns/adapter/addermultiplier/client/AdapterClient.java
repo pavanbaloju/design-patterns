@@ -1,9 +1,9 @@
-package com.learning.designpatterns.adapter.client;
+package com.learning.designpatterns.adapter.addermultiplier.client;
 
-import com.learning.designpatterns.adapter.adaptee.AdderImpl;
-import com.learning.designpatterns.adapter.adapterinterface.AdderAdapterImpl;
-import com.learning.designpatterns.adapter.clientinterface.Multiplier;
-import com.learning.designpatterns.adapter.clientinterface.MultiplierImpl;
+import com.learning.designpatterns.adapter.addermultiplier.adaptee.AdderImpl;
+import com.learning.designpatterns.adapter.addermultiplier.adapterinterface.AdderAdapterImpl;
+import com.learning.designpatterns.adapter.addermultiplier.clientinterface.Multiplier;
+import com.learning.designpatterns.adapter.addermultiplier.clientinterface.MultiplierImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,4 @@
-package com.learning.designpatterns.adapter.clientinterface;
+package com.learning.designpatterns.adapter.addermultiplier.clientinterface;
 
 public class MultiplierImpl implements Multiplier {
     @Override

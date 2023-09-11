@@ -1,6 +1,6 @@
-package com.learning.designpatterns.adapter.adapterinterface;
+package com.learning.designpatterns.adapter.addermultiplier.adapterinterface;
 
-import com.learning.designpatterns.adapter.adaptee.Adder;
+import com.learning.designpatterns.adapter.addermultiplier.adaptee.Adder;
 
 public class AdderAdapterImpl implements AdderAdapter {
 

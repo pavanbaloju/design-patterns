@@ -1,4 +1,4 @@
-package com.learning.designpatterns.adapter.adaptee;
+package com.learning.designpatterns.adapter.addermultiplier.adaptee;
 
 public class AdderImpl implements Adder {
     @Override
