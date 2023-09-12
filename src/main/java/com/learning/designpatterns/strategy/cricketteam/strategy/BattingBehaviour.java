@@ -1,6 +1,6 @@
 package com.learning.designpatterns.strategy.cricketteam.strategy;
 
-public interface Batsman {
+public interface BattingBehaviour {
 
     void bat();
 }

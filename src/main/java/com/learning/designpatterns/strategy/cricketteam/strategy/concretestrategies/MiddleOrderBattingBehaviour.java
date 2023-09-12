@@ -4,12 +4,11 @@ import com.learning.designpatterns.strategy.cricketteam.strategy.BattingBehaviou
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class WickerKeeper implements BattingBehaviour {
-
-    private final Logger logger = LoggerFactory.getLogger(WickerKeeper.class);
+public class MiddleOrderBattingBehaviour implements BattingBehaviour {
+    private final Logger logger = LoggerFactory.getLogger(MiddleOrderBattingBehaviour.class);
 
     @Override
     public void bat() {
-        logger.info("I am a wicket keeper batsman");
+        logger.info("I bat in the middle order");
     }
 }
