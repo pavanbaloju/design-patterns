@@ -9,9 +9,13 @@ public class Square implements Shape {
     this.color = color;
   }
 
+  public Square(Square s) {
+    this.color = s.color;
+  }
+
   @Override
   public Shape clone() {
-    return new Square(this.color);
+    return new Square(this);
   }
 
   @Override

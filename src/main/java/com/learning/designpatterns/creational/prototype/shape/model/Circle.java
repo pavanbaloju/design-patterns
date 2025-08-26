@@ -8,9 +8,13 @@ public class Circle implements Shape {
         this.color = color;
     }
 
+    public Circle(Circle c) {
+        this.color = c.color;
+    }
+
     @Override
     public Shape clone() {
-        return new Circle(this.color);
+        return new Circle(this);
     }
 
     @Override
